@@ -1,0 +1,65 @@
+html {
+  background: url('./background.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.keys {
+  height: 100%;
+  position: absolute;
+}
+.hihat {
+  position: relative;
+  bottom: -50%;
+  left: -1%;
+  padding: 50px;
+  border: solid 1px pink;
+}
+#hihat {
+  height: 1115px;
+  width: 560px;
+}
+
+.tom {
+  position: relative;
+  bottom: -65%;
+  left: -10%;
+  z-index: 100;
+}
+#tom {
+  height: 400px;
+  width: 400px;
+}
+
+.snare {
+  position: relative;
+  bottom: -65%;
+  left: -23%;
+}
+#snare {
+  height: 400px;
+  width: 400px;
+}
+
+
+.kick {
+  position: relative;
+  bottom: -80%;
+  left: -92%;
+}
+#kick {
+  height:560px;
+  width: 560px;
+}
+
+.cymbal {
+  position: relative;
+  bottom: -49%;
+  left: -91%;
+}
+#cymbal {
+  height: 1195px;
+  width: 560px;
+}
