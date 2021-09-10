@@ -157,7 +157,8 @@
     const panels = document.querySelectorAll('.panel');
 
     function toggleOpen() {
-      console.log('Hello');
+      let removeOpen = document.querySelectorAll(".open")
+      removeOpen.forEach(item => item.classList.toggle("open"));
       this.classList.toggle('open');
     }
 
