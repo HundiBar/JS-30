@@ -79,7 +79,9 @@
 // 7.Sort the people alphabetically by last name
   const alpha = people.sort((lastOne, nextOne) => {
           const [aLast, aFirst] = lastOne.split(', ');
+          // console.log([aLast, aFirst]);
           const [bLast, bFirst] = nextOne.split(', ');
+          // console.log([bLast, bFirst]);
           return aLast > bLast ? 1 : -1;
         });
       console.log(alpha);
